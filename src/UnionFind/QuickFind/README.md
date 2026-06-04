@@ -1,1 +1,0 @@
-Quick find [eager approach]
