@@ -74,8 +74,17 @@ Quick union iprovement [weighted]
 
 ---
 
+algorithm initialize union connected : 
 
+initialize union connected      
 
+quick-find N N 1
+
+quick-union N N † N
+
+weighted QU N lg N † lg N
+
+† includes cost of finding roots
 
 
 
