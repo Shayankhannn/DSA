@@ -33,6 +33,29 @@ connected.
 
 Quick find [eager approach]
 
+Quick-Find is called eager because:
+
+It does the expensive work during union() by immediately updating all component labels.
+
+Quick-Union is called lazy because it postpones work and only follows links when needed.
+
+----------
+
+Why does Quick-Find become slow when N is large?
+Quick-Find is slow because every union requires scanning the entire array to update component IDs, so each operation takes linear time, making a sequence of operations quadratic.
+If you perform M unions:
+
+each union = O(N)
+total = O(M × N)
+So if:
+
+M ≈ N
+then:
+O(N × N) = O(N²)
+The problem is:
+
+Every union touches the whole array even if only 2 elements are involved.
+
 ---
 
 Quick-find defect.
@@ -48,5 +71,12 @@ Quick-union defect.
 ----
 
 Quick union iprovement [weighted]
+
+---
+
+
+
+
+
 
 
