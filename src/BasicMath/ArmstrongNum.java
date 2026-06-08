@@ -28,9 +28,9 @@ public class ArmstrongNum {
        int sum = 0;
        Dup = orrginalnum;
         while (Dup > 0 ){
-            int ld = N % 10;
+            int ld = Dup % 10;
             sum = sum + power(ld,count);
-            N = N/10;
+            Dup = Dup/10;
         }
      return orrginalnum == sum;
     }
