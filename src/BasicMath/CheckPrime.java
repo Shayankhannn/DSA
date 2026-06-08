@@ -1,7 +1,7 @@
 package BasicMath;
 
 import java.util.Scanner;
-
+// time complexity $O(\sqrt{N})$
 public class CheckPrime {
     public static void isPrime(int N){
       int  count= 0;
@@ -25,6 +25,6 @@ public class CheckPrime {
         Scanner keyboard = new Scanner(System.in);
         int N = keyboard.nextInt();
         isPrime(N);
-        if (N%N == 0 && N%1==N) System.out.println("this method work too");
+
     }
 }
