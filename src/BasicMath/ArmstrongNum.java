@@ -16,8 +16,7 @@ public class ArmstrongNum {
         return result;
         }
     public static boolean isArmstrong(int N){
-//        Scanner keyboard = new Scanner(System.in);
-//        int N = keyboard.nextInt();
+
         int orrginalnum = N;
        int Dup = N;
        int count = 0;
@@ -35,5 +34,13 @@ public class ArmstrongNum {
         }
      return orrginalnum == sum;
     }
-tbpoembpkw,btp,v
+
+    public static void main(String[] args){
+        Scanner keyboard = new Scanner(System.in);
+       int N = keyboard.nextInt();
+      String isArmstrong = isArmstrong(N) ? "true" : "false" ;
+      System.out.println(isArmstrong);
+
+       }
+
 }
