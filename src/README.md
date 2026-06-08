@@ -6,3 +6,65 @@ Space Complexity: How much memory does it need?Space complexity measures how muc
 
 
 Quick Cheat Sheet for your CourseNested Loops? Usually $O(N^2)$.Single Loop? Usually $O(N)$.Cutting the problem in half each step? Usually $O(\log N)$.Simple math/access? Usually $O(1)$.
+
+
+Time Complexity : the rate at which time increases with respest to the input size
+
+when computing time complexity :
+
+-> always take worst case
+-> avoid constant they dont add any significance 
+-> avoid lower values 
+
+for eg O(3xN^15 + 2 x N^3 + 9)
+we only say O(3 x N^15)
+
+three types :
+
+Big Oh (O) - worst-case -> upper bound
+
+Theta (O and - inside) - average
+
+Omega (anchor type sign) - best case - lower bound
+
+
+
+Space Complexity 
+
+is auxilary space - the space that you takes to solve the problem
+
++ 
+
+the space that you take to store the input
+
+a and b  var are input space 
+
+but c = a + b is auxillary space 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
