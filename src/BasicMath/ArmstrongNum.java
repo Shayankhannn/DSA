@@ -7,7 +7,7 @@ public class ArmstrongNum {
     // of each digit number is equal to the num thats called armstrong number
     // for eg num 153 - 3 digits so cube of each digit should be equal to the num -> 1^3 + 5^3 + 3^3 = 153 -> its armstrong
     // 1634 -> total number 4 so power of 4 ->  1^4 + 6^4 + 3^4 + 4^4 = 1634 armstrong number
-
+    // Time Complexity O((log10N)^2) - manual if use in build func then O(logN)
        public static int power(int digit ,int time){
         int result = 1;
         for (int i = 0; i<time ; i++){
