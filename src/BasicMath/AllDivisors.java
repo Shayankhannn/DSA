@@ -1,7 +1,7 @@
 package BasicMath;
 
 import java.util.Scanner;
-
+// time compexity O(N)
 public class AllDivisors {
     public static void allDivisors(int N){
         for (int i = 1; i <=N ; i++){
