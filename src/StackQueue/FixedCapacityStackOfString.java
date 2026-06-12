@@ -14,7 +14,14 @@ public class FixedCapacityStackOfString {
 
     }
     public String pop(){
-     return   s[--n];
+//     return   s[--n];
+
+     // loitering -- we are not using that value but java is pointing to it so to avoid loitering
+        // we can set it to null so we can avoid loitering
+    String item = s[--n];
+    s[n]=null;
+    return item;
     }
 
 }
+
